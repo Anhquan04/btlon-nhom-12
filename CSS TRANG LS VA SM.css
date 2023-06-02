@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ header{
+    background-image: url('mie_files');
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+  li {
+    list-style: none;
+  }
+  h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    text-align: center;
+  }
+  nav {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    background: #f1df11;
+  }
+  
+  nav .content-nav {
+    display: flex;
+    line-height: 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+  }
+  
+  nav .content-nav ul {
+    display: flex;
+  }
+  .menu li ul{
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    top:100px ;
+    width:170px;
+    display: none;
+  }
+  .menu li:hover ul{
+    display: block;
+  }
+  .menu li ul li{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+  }
+  .menu li ul li:hover{
+    background-color:#5f8cc2;
+    text-align: center;
+  }
+
+  
+  nav .content-nav ul li a {
+    text-decoration: none;
+    color: #43433e;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 800;
+    border-right: 1px solid #fff;
+  }
+  
+  nav .content-nav ul li a:hover {
+    color: #fff;
+  }
+  
+  .content-nav form {
+    position: relative;
+  }
+  
+  .content-nav form input {
+    border: none;
+    background: #fff;
+    line-break: 50px;
+    padding: 7px;
+    bottom: 30px;
+    outline: none;
+    border-radius: 12px;
+  }
+  
+  .content-nav form button {
+    padding: 5px;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    border: none;
+    outline: none;
+    background: #fff;
+  }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.page-title {
+    font-family: BalooExtra !important;
+    font-size: 36px !important;
+    font-weight: 400;
+    margin-top: 32px;
+}
+p {
+    text-align: center;
+    color:antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.justified-text p {
+    text-indent: 0;
+    text-align:center;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top:50px;
+}
+.img-container {
+    max-width: 100%;
+    height: auto;
+}
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color:#fff;
+    text-decoration: none;
+    margin-left: 700px;
+    
+}
+footer {
+    background-color: #a8a75f;
+    padding: 50px 0;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  footer h3 {
+
+color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    background-color: #ff6600;
+  }
+  .payment-methods {
+    margin-bottom: 10px;
+    margin-right: 800px;
+
+  }
+  
+  .payment-methods h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .payment-methods li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .payment-methods img {
+    width: 50px;
+    height: 30px;
+  }
